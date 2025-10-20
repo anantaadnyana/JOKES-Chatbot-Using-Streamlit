@@ -15,4 +15,4 @@ Sistem ini menggunakan pendekatan RAG (Retrieval-Augmented Generation) agar AI d
 # 🔑 Konfigurasi API Key Groq
 - Buka https://console.groq.com/keys
 - Buat API key baru.
-- Simpan di .env atau masukkan langsung di antarmuka Streamlit saat diminta.
+- masukkan langsung di antarmuka Streamlit saat diminta.
