@@ -12,11 +12,7 @@ Sistem ini menggunakan pendekatan RAG (Retrieval-Augmented Generation) agar AI d
 - Integrasi RAG (mengambil konteks dari dokumen yang di-embed)
 - Dukungan model Groq LLaMA 3
 
-# 📂 PROJECT/
-│
-├── app.py              # Streamlit chatbot utama
-├── rag.py              # Skrip embedding dokumen (membangun FAISS index)
-├── STAND UP.pdf        # Dokumen sumber teori stand-up comedy
-├── faiss_index/        # Folder hasil embedding (dibuat otomatis oleh rag.py)
-└── README.md           # Dokumentasi proyek
-
+# 🔑 Konfigurasi API Key Groq
+- Buka https://console.groq.com/keys
+- Buat API key baru.
+- Simpan di .env atau masukkan langsung di antarmuka Streamlit saat diminta.
