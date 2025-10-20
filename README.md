@@ -5,10 +5,18 @@ Jokes AI adalah chatbot berbasis Streamlit + LangChain + Groq API yang dapat mem
 Sistem ini menggunakan pendekatan RAG (Retrieval-Augmented Generation) agar AI dapat membuat jokes yang relevan, kontekstual, dan lucu sesuai teori setup, punchline, rule of three, dan teknik komedi lainnya.
 
 # 🧠 Fitur Utama
+- Menghasilkan jokes berdasarkan topik apa pun
+- Menggunakan referensi teori dari buku stand-up comedy
+- Tampilan antarmuka modern (Streamlit UI)
+- Menyimpan histori percakapan
+- Integrasi RAG (mengambil konteks dari dokumen yang di-embed)
+- Dukungan model Groq LLaMA 3
 
-✅ Menghasilkan jokes berdasarkan topik apa pun
-✅ Menggunakan referensi teori dari buku stand-up comedy
-✅ Tampilan antarmuka modern (Streamlit UI)
-✅ Menyimpan histori percakapan
-✅ Integrasi RAG (mengambil konteks dari dokumen yang di-embed)
-✅ Dukungan model Groq LLaMA 3
+# 📂 PROJECT/
+│
+├── app.py              # Streamlit chatbot utama
+├── rag.py              # Skrip embedding dokumen (membangun FAISS index)
+├── STAND UP.pdf        # Dokumen sumber teori stand-up comedy
+├── faiss_index/        # Folder hasil embedding (dibuat otomatis oleh rag.py)
+└── README.md           # Dokumentasi proyek
+
